@@ -22,4 +22,4 @@ def cart(request):
 def checkout(request):
 	return render(request, 'chetty/checkout.html')
 def contact(request):
-    return render(request, 'chetty/contact.html')
+    return render(request, 'chetty/contact.html
