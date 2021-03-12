@@ -15,7 +15,7 @@ An online clothing store for men
 
 - Clone the repo
 
-`git clone https://github.com/adole99/eStore.git`
+	`git clone https://github.com/adole99/eStore.git`
 
 - Install virtualenv
 
