@@ -28,3 +28,6 @@ An online clothing store for men
 - Activate Virtual environment
 
 	`source <name>/bin/activate`
+
+- Install Dependencies
+	`pip install -r requirements.txt`
