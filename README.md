@@ -19,12 +19,12 @@ An online clothing store for men
 
 - Install virtualenv
 
-`pip install virtualenv`
+	`pip install virtualenv`
 
 - Create Virtual environment
 
-`virtualenv <name>`
+	`virtualenv <name>`
 
 - Activate Virtual environment
 
-`source <name>/bin/activate`
+	`source <name>/bin/activate`
