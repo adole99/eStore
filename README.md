@@ -4,8 +4,8 @@ An online clothing store for men
 
 ### Table of Content
 
-1. Requirements
-2. Installation
+1. [Requirements](#Requirements)
+2. [Installation](#Installation)
 
 ### Requirements
 
