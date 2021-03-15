@@ -15,12 +15,17 @@ class Category(models.Model):
 	name = models.CharField(max_length=255)
 	slug = models. SlugField(max_length=255)
 
+	class Meta:
+		verbose_name_plural = 'categories'
+
 	def __str__(self):
 		return self.name
 		
 class Product(models.Model):
 	name = models.CharField(max_length=200, null=True)
 	description = models.TextField(blank=True)
+	category = models.ForeignKey(Category, null=True, on_delete=models.CASCADE)
+	slug = models.SlugField(max_length=255, null=True)
 	in_stock = models.BooleanField(default=True)
 	price = models.FloatField()
 	image = models.ImageField(null=True, blank=True)
