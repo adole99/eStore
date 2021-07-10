@@ -1,6 +1,6 @@
 # eStore
 
-An online clothing store for men
+An online shopping system with Admin and Cart Functionality
 
 ### Table of Content
 
